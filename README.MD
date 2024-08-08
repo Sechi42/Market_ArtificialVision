@@ -10,30 +10,23 @@ La tarea, entonces, es construir y evaluar un modelo para verificar la edad de l
 ## Instrucciones del Proyecto
 
 1. Pasa un cuestionario para verificar tu comprensión de la descripción del proyecto.
-2. Realiza un análisis exploratorio de datos para obtener una impresión general del conjunto de datos.
-3. Entrena y evalúa el modelo (se debe hacer en la plataforma GPU).
-4. Combina tu código, salida y hallazgos (de los puntos anteriores) en el Jupyter notebook final.
-5. Haz conclusiones de la evaluación del modelo y agrégalas al notebook.
-6. Los revisores del proyecto revisarán tu notebook final.
+2. Realización de un análisis exploratorio de datos para obtener una impresión general del conjunto de datos.
+3. Entrenamiento y evalúación el modelo.
+4. Combinación de el código, salida .
+5. Conclusiones de la evaluación del modelo.
 
-## Evaluación del Proyecto
+## Conclusiones
 
-Hemos definido los criterios de evaluación para el proyecto. Léelos con atención antes de pasar al ejercicio:
+En este proyecto se realizaron diversos analisis a los cuales se llegaron a los siguientes puntos:
 
-- ¿Seguiste todos los pasos de las instrucciones?
-- ¿Cómo analizaste los datos?
-- ¿Cómo preparaste los datos para el entrenamiento y la prueba?
-- ¿Cómo elegiste los parámetros para un modelo de red neuronal?
-- ¿Cuáles son tus hallazgos y conclusiones?
-- ¿Mantuviste la estructura del proyecto?
-- ¿Mantuviste el código limpio?
+- Los datos tienen un intervalo de foftgrafias con personas de 1 año hasta 100 años de edad
+- La media de edad de las personas en las fotografías es de 31 años y el 75% tiene menos de 41 años, por lo que el modelo podría predecir mejor en rangos de 14-41 años 
+- En cuanto a las metricas del modelo, el error absoluto medio es de 5.8151, considerando la desviación estandar de las edades es de 17 años, podíamos considerarlo bastante aceptable.
+- Es de observar que en la epoca 8 y 18 hay un aumento del error absoluto, esto podría ser indicativo de un modelo sobreentrenado
 
-No olvides consultar los resúmenes de los capítulos y las hojas informativas a medida que abordas el proyecto.
-
-¡Buena suerte!
+Como conclusión obtenemos un modelo que tiene una predictivilad de una fiabilidad interesante, habría que estudiar más parametros para moder obtener unos resultados superiores. 
 
 
 
 
 
-4o
